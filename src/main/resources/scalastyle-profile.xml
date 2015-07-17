@@ -1,0 +1,287 @@
+<?xml version="1.0" encoding="ASCII"?>
+<profile>
+  <name>Scalastyle</name>
+  <language>scala</language>
+  <rules>
+    <rule id="org.scalastyle.file.FileTabChecker">
+      <repositoryKey>Scalastyle</repositoryKey>
+      <key>org.scalastyle.file.FileTabChecker</key>
+      <priority>MINOR</priority>
+    </rule>
+    <rule id="org.scalastyle.file.FileLengthChecker">
+      <repositoryKey>Scalastyle</repositoryKey>
+      <key>org.scalastyle.file.FileLengthChecker</key>
+      <priority>MAJOR</priority>
+    </rule>
+    <rule id="org.scalastyle.file.HeaderMatchesChecker">
+      <repositoryKey>Scalastyle</repositoryKey>
+      <key>org.scalastyle.file.HeaderMatchesChecker</key>
+      <priority>MAJOR</priority>
+    </rule>
+    <rule id="org.scalastyle.scalariform.SpacesAfterPlusChecker">
+      <repositoryKey>Scalastyle</repositoryKey>
+      <key>org.scalastyle.scalariform.SpacesAfterPlusChecker</key>
+      <priority>MINOR</priority>
+    </rule>
+    <rule id="org.scalastyle.file.WhitespaceEndOfLineChecker">
+      <repositoryKey>Scalastyle</repositoryKey>
+      <key>org.scalastyle.file.WhitespaceEndOfLineChecker</key>
+      <priority>MINOR</priority>
+    </rule>
+    <rule id="org.scalastyle.scalariform.SpacesBeforePlusChecker">
+      <repositoryKey>Scalastyle</repositoryKey>
+      <key>org.scalastyle.scalariform.SpacesBeforePlusChecker</key>
+      <priority>MINOR</priority>
+    </rule>
+    <rule id="org.scalastyle.file.FileLineLengthChecker">
+      <repositoryKey>Scalastyle</repositoryKey>
+      <key>org.scalastyle.file.FileLineLengthChecker</key>
+      <priority>MAJOR</priority>
+    </rule>
+    <rule id="org.scalastyle.scalariform.ClassNamesChecker">
+      <repositoryKey>Scalastyle</repositoryKey>
+      <key>org.scalastyle.scalariform.ClassNamesChecker</key>
+      <priority>MAJOR</priority>
+    </rule>
+    <rule id="org.scalastyle.scalariform.ObjectNamesChecker">
+      <repositoryKey>Scalastyle</repositoryKey>
+      <key>org.scalastyle.scalariform.ObjectNamesChecker</key>
+      <priority>MAJOR</priority>
+    </rule>
+    <rule id="org.scalastyle.scalariform.PackageObjectNamesChecker">
+      <repositoryKey>Scalastyle</repositoryKey>
+      <key>org.scalastyle.scalariform.PackageObjectNamesChecker</key>
+      <priority>MAJOR</priority>
+    </rule>
+    <rule id="org.scalastyle.scalariform.EqualsHashCodeChecker">
+      <repositoryKey>Scalastyle</repositoryKey>
+      <key>org.scalastyle.scalariform.EqualsHashCodeChecker</key>
+      <priority>MAJOR</priority>
+    </rule>
+    <rule id="org.scalastyle.scalariform.IllegalImportsChecker">
+      <repositoryKey>Scalastyle</repositoryKey>
+      <key>org.scalastyle.scalariform.IllegalImportsChecker</key>
+      <priority>MINOR</priority>
+    </rule>
+    <rule id="org.scalastyle.scalariform.ParameterNumberChecker">
+      <repositoryKey>Scalastyle</repositoryKey>
+      <key>org.scalastyle.scalariform.ParameterNumberChecker</key>
+      <priority>MINOR</priority>
+    </rule>
+    <rule id="org.scalastyle.scalariform.MagicNumberChecker">
+      <repositoryKey>Scalastyle</repositoryKey>
+      <key>org.scalastyle.scalariform.MagicNumberChecker</key>
+      <priority>MINOR</priority>
+    </rule>
+    <rule id="org.scalastyle.scalariform.NoWhitespaceBeforeLeftBracketChecker">
+      <repositoryKey>Scalastyle</repositoryKey>
+      <key>org.scalastyle.scalariform.NoWhitespaceBeforeLeftBracketChecker</key>
+      <priority>MINOR</priority>
+    </rule>
+    <rule id="org.scalastyle.scalariform.NoWhitespaceAfterLeftBracketChecker">
+      <repositoryKey>Scalastyle</repositoryKey>
+      <key>org.scalastyle.scalariform.NoWhitespaceAfterLeftBracketChecker</key>
+      <priority>MINOR</priority>
+    </rule>
+    <rule id="org.scalastyle.scalariform.ReturnChecker">
+      <repositoryKey>Scalastyle</repositoryKey>
+      <key>org.scalastyle.scalariform.ReturnChecker</key>
+      <priority>MAJOR</priority>
+    </rule>
+    <rule id="org.scalastyle.scalariform.NullChecker">
+      <repositoryKey>Scalastyle</repositoryKey>
+      <key>org.scalastyle.scalariform.NullChecker</key>
+      <priority>MAJOR</priority>
+    </rule>
+    <rule id="org.scalastyle.scalariform.NoCloneChecker">
+      <repositoryKey>Scalastyle</repositoryKey>
+      <key>org.scalastyle.scalariform.NoCloneChecker</key>
+      <priority>MAJOR</priority>
+    </rule>
+    <rule id="org.scalastyle.scalariform.NoFinalizeChecker">
+      <repositoryKey>Scalastyle</repositoryKey>
+      <key>org.scalastyle.scalariform.NoFinalizeChecker</key>
+      <priority>MAJOR</priority>
+    </rule>
+    <rule id="org.scalastyle.scalariform.CovariantEqualsChecker">
+      <repositoryKey>Scalastyle</repositoryKey>
+      <key>org.scalastyle.scalariform.CovariantEqualsChecker</key>
+      <priority>MAJOR</priority>
+    </rule>
+    <rule id="org.scalastyle.scalariform.StructuralTypeChecker">
+      <repositoryKey>Scalastyle</repositoryKey>
+      <key>org.scalastyle.scalariform.StructuralTypeChecker</key>
+      <priority>MAJOR</priority>
+    </rule>
+    <rule id="org.scalastyle.file.RegexChecker">
+      <repositoryKey>Scalastyle</repositoryKey>
+      <key>org.scalastyle.file.RegexChecker</key>
+      <priority>MAJOR</priority>
+    </rule>
+    <rule id="org.scalastyle.scalariform.NumberOfTypesChecker">
+      <repositoryKey>Scalastyle</repositoryKey>
+      <key>org.scalastyle.scalariform.NumberOfTypesChecker</key>
+      <priority>MAJOR</priority>
+    </rule>
+    <rule id="org.scalastyle.scalariform.CyclomaticComplexityChecker">
+      <repositoryKey>Scalastyle</repositoryKey>
+      <key>org.scalastyle.scalariform.CyclomaticComplexityChecker</key>
+      <priority>MINOR</priority>
+    </rule>
+    <rule id="org.scalastyle.scalariform.UppercaseLChecker">
+      <repositoryKey>Scalastyle</repositoryKey>
+      <key>org.scalastyle.scalariform.UppercaseLChecker</key>
+      <priority>MINOR</priority>
+    </rule>
+    <rule id="org.scalastyle.scalariform.SimplifyBooleanExpressionChecker">
+      <repositoryKey>Scalastyle</repositoryKey>
+      <key>org.scalastyle.scalariform.SimplifyBooleanExpressionChecker</key>
+      <priority>MAJOR</priority>
+    </rule>
+    <rule id="org.scalastyle.scalariform.IfBraceChecker">
+      <repositoryKey>Scalastyle</repositoryKey>
+      <key>org.scalastyle.scalariform.IfBraceChecker</key>
+      <priority>MINOR</priority>
+    </rule>
+    <rule id="org.scalastyle.scalariform.MethodLengthChecker">
+      <repositoryKey>Scalastyle</repositoryKey>
+      <key>org.scalastyle.scalariform.MethodLengthChecker</key>
+      <priority>MAJOR</priority>
+    </rule>
+    <rule id="org.scalastyle.scalariform.MethodNamesChecker">
+      <repositoryKey>Scalastyle</repositoryKey>
+      <key>org.scalastyle.scalariform.MethodNamesChecker</key>
+      <priority>MAJOR</priority>
+    </rule>
+    <rule id="org.scalastyle.scalariform.NumberOfMethodsInTypeChecker">
+      <repositoryKey>Scalastyle</repositoryKey>
+      <key>org.scalastyle.scalariform.NumberOfMethodsInTypeChecker</key>
+      <priority>MAJOR</priority>
+    </rule>
+    <rule id="org.scalastyle.scalariform.PublicMethodsHaveTypeChecker">
+      <repositoryKey>Scalastyle</repositoryKey>
+      <key>org.scalastyle.scalariform.PublicMethodsHaveTypeChecker</key>
+      <priority>MINOR</priority>
+    </rule>
+    <rule id="org.scalastyle.file.NewLineAtEofChecker">
+      <repositoryKey>Scalastyle</repositoryKey>
+      <key>org.scalastyle.file.NewLineAtEofChecker</key>
+      <priority>MINOR</priority>
+    </rule>
+    <rule id="org.scalastyle.file.NoNewLineAtEofChecker">
+      <repositoryKey>Scalastyle</repositoryKey>
+      <key>org.scalastyle.file.NoNewLineAtEofChecker</key>
+      <priority>MINOR</priority>
+    </rule>
+    <rule id="org.scalastyle.scalariform.WhileChecker">
+      <repositoryKey>Scalastyle</repositoryKey>
+      <key>org.scalastyle.scalariform.WhileChecker</key>
+      <priority>MINOR</priority>
+    </rule>
+    <rule id="org.scalastyle.scalariform.VarFieldChecker">
+      <repositoryKey>Scalastyle</repositoryKey>
+      <key>org.scalastyle.scalariform.VarFieldChecker</key>
+      <priority>MINOR</priority>
+    </rule>
+    <rule id="org.scalastyle.scalariform.VarLocalChecker">
+      <repositoryKey>Scalastyle</repositoryKey>
+      <key>org.scalastyle.scalariform.VarLocalChecker</key>
+      <priority>MINOR</priority>
+    </rule>
+    <rule id="org.scalastyle.scalariform.RedundantIfChecker">
+      <repositoryKey>Scalastyle</repositoryKey>
+      <key>org.scalastyle.scalariform.RedundantIfChecker</key>
+      <priority>MINOR</priority>
+    </rule>
+    <rule id="org.scalastyle.scalariform.TokenChecker">
+      <repositoryKey>Scalastyle</repositoryKey>
+      <key>org.scalastyle.scalariform.TokenChecker</key>
+      <priority>MINOR</priority>
+    </rule>
+    <rule id="org.scalastyle.scalariform.DeprecatedJavaChecker">
+      <repositoryKey>Scalastyle</repositoryKey>
+      <key>org.scalastyle.scalariform.DeprecatedJavaChecker</key>
+      <priority>MINOR</priority>
+    </rule>
+    <rule id="org.scalastyle.scalariform.EmptyClassChecker">
+      <repositoryKey>Scalastyle</repositoryKey>
+      <key>org.scalastyle.scalariform.EmptyClassChecker</key>
+      <priority>MINOR</priority>
+    </rule>
+    <rule id="org.scalastyle.scalariform.ClassTypeParameterChecker">
+      <repositoryKey>Scalastyle</repositoryKey>
+      <key>org.scalastyle.scalariform.ClassTypeParameterChecker</key>
+      <priority>MINOR</priority>
+    </rule>
+    <rule id="org.scalastyle.scalariform.UnderscoreImportChecker">
+      <repositoryKey>Scalastyle</repositoryKey>
+      <key>org.scalastyle.scalariform.UnderscoreImportChecker</key>
+      <priority>MAJOR</priority>
+    </rule>
+    <rule id="org.scalastyle.scalariform.LowercasePatternMatchChecker">
+      <repositoryKey>Scalastyle</repositoryKey>
+      <key>org.scalastyle.scalariform.LowercasePatternMatchChecker</key>
+      <priority>MINOR</priority>
+    </rule>
+    <rule id="org.scalastyle.scalariform.MultipleStringLiteralsChecker">
+      <repositoryKey>Scalastyle</repositoryKey>
+      <key>org.scalastyle.scalariform.MultipleStringLiteralsChecker</key>
+      <priority>MAJOR</priority>
+    </rule>
+    <rule id="org.scalastyle.scalariform.ImportGroupingChecker">
+      <repositoryKey>Scalastyle</repositoryKey>
+      <key>org.scalastyle.scalariform.ImportGroupingChecker</key>
+      <priority>MINOR</priority>
+    </rule>
+    <rule id="org.scalastyle.scalariform.NotImplementedErrorUsage">
+      <repositoryKey>Scalastyle</repositoryKey>
+      <key>org.scalastyle.scalariform.NotImplementedErrorUsage</key>
+      <priority>MINOR</priority>
+    </rule>
+    <rule id="org.scalastyle.scalariform.BlockImportChecker">
+      <repositoryKey>Scalastyle</repositoryKey>
+      <key>org.scalastyle.scalariform.BlockImportChecker</key>
+      <priority>MINOR</priority>
+    </rule>
+    <rule id="org.scalastyle.scalariform.ProcedureDeclarationChecker">
+      <repositoryKey>Scalastyle</repositoryKey>
+      <key>org.scalastyle.scalariform.ProcedureDeclarationChecker</key>
+      <priority>MAJOR</priority>
+    </rule>
+    <rule id="org.scalastyle.scalariform.ForBraceChecker">
+      <repositoryKey>Scalastyle</repositoryKey>
+      <key>org.scalastyle.scalariform.ForBraceChecker</key>
+      <priority>MINOR</priority>
+    </rule>
+    <rule id="org.scalastyle.scalariform.SpaceAfterCommentStartChecker">
+      <repositoryKey>Scalastyle</repositoryKey>
+      <key>org.scalastyle.scalariform.SpaceAfterCommentStartChecker</key>
+      <priority>MINOR</priority>
+    </rule>
+    <rule id="org.scalastyle.scalariform.ScalaDocChecker">
+      <repositoryKey>Scalastyle</repositoryKey>
+      <key>org.scalastyle.scalariform.ScalaDocChecker</key>
+      <priority>MAJOR</priority>
+    </rule>
+    <rule id="org.scalastyle.scalariform.DisallowSpaceAfterTokenChecker">
+      <repositoryKey>Scalastyle</repositoryKey>
+      <key>org.scalastyle.scalariform.DisallowSpaceAfterTokenChecker</key>
+      <priority>MINOR</priority>
+    </rule>
+    <rule id="org.scalastyle.scalariform.DisallowSpaceBeforeTokenChecker">
+      <repositoryKey>Scalastyle</repositoryKey>
+      <key>org.scalastyle.scalariform.DisallowSpaceBeforeTokenChecker</key>
+      <priority>MINOR</priority>
+    </rule>
+    <rule id="org.scalastyle.scalariform.EnsureSingleSpaceAfterTokenChecker">
+      <repositoryKey>Scalastyle</repositoryKey>
+      <key>org.scalastyle.scalariform.EnsureSingleSpaceAfterTokenChecker</key>
+      <priority>MINOR</priority>
+    </rule>
+    <rule id="org.scalastyle.scalariform.EnsureSingleSpaceBeforeTokenChecker">
+      <repositoryKey>Scalastyle</repositoryKey>
+      <key>org.scalastyle.scalariform.EnsureSingleSpaceBeforeTokenChecker</key>
+      <priority>MINOR</priority>
+    </rule>  
+  </rules>
+</profile>
