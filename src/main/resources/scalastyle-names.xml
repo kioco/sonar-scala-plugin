@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="ASCII"?>
+<profile>
+  <name>Stratio way - No license headers</name>
+  <language>scala</language>
+  <rules>
+    <rule id="org.scalastyle.file.FileTabChecker">
+
+      <name>Tabulation characters should not be used</name>
+    </rule>
+    <rule id="org.scalastyle.file.FileLengthChecker">
+
+      <name>Excessive File Length</name>
+    </rule>
+    <rule id="org.scalastyle.file.HeaderMatchesChecker">
+      <name>Copyright and license headers should be defined</name>
+    </rule>
+    <rule id="org.scalastyle.scalariform.SpacesAfterPlusChecker">
+      <name>Plus sign followed by a space</name>
+    </rule>
+    <rule id="org.scalastyle.file.WhitespaceEndOfLineChecker">
+      <name>No trailing whitespace at the end of lines</name>
+    </rule>
+    <rule id="org.scalastyle.scalariform.SpacesBeforePlusChecker">
+      <name>Plus sign preceded by a space</name>
+    </rule>
+    <rule id="org.scalastyle.file.FileLineLengthChecker">
+      <name>Excessive line length</name>
+    </rule>
+    <rule id="org.scalastyle.scalariform.ClassNamesChecker">
+      <name>Naming - Class naming conventions</name>
+    </rule>
+    <rule id="org.scalastyle.scalariform.ObjectNamesChecker">
+      <name>Naming - Object naming conventions</name>
+    </rule>
+    <rule id="org.scalastyle.scalariform.PackageObjectNamesChecker">
+      <name>Naming - Package object naming conventions</name>
+    </rule>
+    <rule id="org.scalastyle.scalariform.EqualsHashCodeChecker">
+      <name>If a class implements either equals or hashCode, it should implement the other</name>
+    </rule>
+    <rule id="org.scalastyle.scalariform.IllegalImportsChecker">
+      <name>Check that a class does not import certain classes</name>
+    </rule>
+    <rule id="org.scalastyle.scalariform.ParameterNumberChecker">
+      <name>Excessive number of parameters for a method</name>
+    </rule>
+    <rule id="org.scalastyle.scalariform.MagicNumberChecker">
+      <name>Magic numbers should not be used</name>
+    </rule>
+    <rule id="org.scalastyle.scalariform.NoWhitespaceBeforeLeftBracketChecker">
+      <name>Left bracket should not be preceded by a space</name>
+    </rule>
+    <rule id="org.scalastyle.scalariform.NoWhitespaceAfterLeftBracketChecker">
+      <name>Left bracket should not be followed by a space</name>
+    </rule>
+    <rule id="org.scalastyle.scalariform.ReturnChecker">
+      <name>Return should not be used</name>
+    </rule>
+    <rule id="org.scalastyle.scalariform.NullChecker">
+      <name>Null should not be used</name>
+    </rule>
+    <rule id="org.scalastyle.scalariform.NoCloneChecker">
+      <name>No Clone</name>
+    </rule>
+    <rule id="org.scalastyle.scalariform.NoFinalizeChecker">
+      <name>No Finalizer</name>
+    </rule>
+    <rule id="org.scalastyle.scalariform.CovariantEqualsChecker">
+      <name>Covariant Equals</name>
+    </rule>
+    <rule id="org.scalastyle.scalariform.StructuralTypeChecker">
+      <name>Structural types should not be used</name>
+    </rule>
+    <rule id="org.scalastyle.file.RegexChecker">
+      <name>Regular Expression not matched</name>
+    </rule>
+    <rule id="org.scalastyle.scalariform.NumberOfTypesChecker">
+      <name>Excessive number of classes or objects</name>
+    </rule>
+    <rule id="org.scalastyle.scalariform.CyclomaticComplexityChecker">
+      <name>Cyclomatic Complexity</name>
+    </rule>
+    <rule id="org.scalastyle.scalariform.UppercaseLChecker">
+      <name>L character should be upper case</name>
+    </rule>
+    <rule id="org.scalastyle.scalariform.SimplifyBooleanExpressionChecker">
+      <name>Simplify Boolean Expression</name>
+    </rule>
+    <rule id="org.scalastyle.scalariform.IfBraceChecker">
+      <name>Control structures should use curly braces</name>
+    </rule>
+    <rule id="org.scalastyle.scalariform.MethodLengthChecker">
+      <name>Method length</name>
+    </rule>
+    <rule id="org.scalastyle.scalariform.MethodNamesChecker">
+      <name>The Scala style guide recommends that method names conform to certain standards</name>
+    </rule>
+    <rule id="org.scalastyle.scalariform.NumberOfMethodsInTypeChecker">
+      <name>Method Count</name>
+    </rule>
+    <rule id="org.scalastyle.scalariform.PublicMethodsHaveTypeChecker">
+      <name>Public methods should define return type</name>
+    </rule>
+    <rule id="org.scalastyle.file.NewLineAtEofChecker">
+      <name>Files should contain an empty new line at the end</name>
+    </rule>
+    <rule id="org.scalastyle.file.NoNewLineAtEofChecker">
+      <name>Files should not contain an empty new line at the end</name>
+    </rule>
+    <rule id="org.scalastyle.scalariform.WhileChecker">
+      <name>While loops deprecated in strict functional style</name>
+    </rule>
+    <rule id="org.scalastyle.scalariform.VarFieldChecker">
+      <name>Mutable fields are deprecated in strict functional style</name>
+    </rule>
+    <rule id="org.scalastyle.scalariform.VarLocalChecker">
+      <name>Mutable local variables are deprecated in strict functional style</name>
+    </rule>
+    <rule id="org.scalastyle.scalariform.RedundantIfChecker">
+      <name>Expressions with boolean constants in both branches can be eliminated without affecting readability</name>
+    </rule>
+    <rule id="org.scalastyle.scalariform.TokenChecker">
+      <name>Illegal Token</name>
+    </rule>
+    <rule id="org.scalastyle.scalariform.DeprecatedJavaChecker">
+      <name>Scala @deprecated should be used</name>
+    </rule>
+    <rule id="org.scalastyle.scalariform.EmptyClassChecker">
+      <name>Braces unnecessary in empty classes or traits</name>
+    </rule>
+    <rule id="org.scalastyle.scalariform.ClassTypeParameterChecker">
+      <name>Naming - Parameters naming conventions</name>
+    </rule>
+    <rule id="org.scalastyle.scalariform.UnderscoreImportChecker">
+      <name>Avoid underscore import</name>
+    </rule>
+    <rule id="org.scalastyle.scalariform.LowercasePatternMatchChecker">
+      <name>A lower case pattern match clause with no other tokens is the same as \_</name>
+    </rule>
+    <rule id="org.scalastyle.scalariform.MultipleStringLiteralsChecker">
+      <name>Multiple String Literals</name>
+    </rule>
+    <rule id="org.scalastyle.scalariform.ImportGroupingChecker">
+      <name>Import grouping</name>
+    </rule>
+    <rule id="org.scalastyle.scalariform.NotImplementedErrorUsage">
+      <name>Not implemented classes</name>
+    </rule>
+    <rule id="org.scalastyle.scalariform.BlockImportChecker">
+      <name>Block imports can lead to merge errors</name>
+    </rule>
+    <rule id="org.scalastyle.scalariform.ProcedureDeclarationChecker">
+      <name>Use explicit return type in procedure declaration or add = before the body</name>
+    </rule>
+    <rule id="org.scalastyle.scalariform.ForBraceChecker">
+      <name>Usage of braces within a for</name>
+    </rule>
+    <rule id="org.scalastyle.scalariform.SpaceAfterCommentStartChecker">
+      <name>Comment should be preceded by a space</name>
+    </rule>
+    <rule id="org.scalastyle.scalariform.ScalaDocChecker">
+      <name>Scaladoc Style</name>
+    </rule>
+    <rule id="org.scalastyle.scalariform.DisallowSpaceAfterTokenChecker">
+      <name>Tokens should not be followed by a space</name>
+    </rule>
+    <rule id="org.scalastyle.scalariform.DisallowSpaceBeforeTokenChecker">
+      <name>Tokens should not be preceded by a space</name>
+    </rule>
+    <rule id="org.scalastyle.scalariform.EnsureSingleSpaceAfterTokenChecker">
+      <name>Tokens should be followed by a single space</name>
+    </rule>
+    <rule id="org.scalastyle.scalariform.EnsureSingleSpaceBeforeTokenChecker">
+      <name>Tokens should be preceded by a single space</name>
+    </rule>  
+  </rules>
+</profile>

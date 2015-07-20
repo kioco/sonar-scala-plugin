@@ -51,7 +51,14 @@ class ScalastyleRepository extends RulesDefinition {
   }
   
   private def toRule(repository: NewRepository, repoRule : RepositoryRule) = {
-    val newRule = repository.createRule(repoRule.clazz).setName(repoRule.id)
+    var name = ScalastyleResources.nameFromProfile(repoRule.clazz)
+    if (name == "UNAVAILABLE")
+    {
+      name = repoRule.id
+    }  
+    val newRule = repository.createRule(repoRule.clazz).setName(name)
+
+    //val newRule = repository.createRule(repoRule.clazz).setName(repoRule.id)
     newRule.setHtmlDescription(repoRule.description)
     val severity = ScalastyleResources.severityFromProfile(repoRule.clazz)
     newRule.setSeverity(severity)

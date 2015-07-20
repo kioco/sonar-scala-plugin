@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="ASCII"?>
 <profile>
-  <name>Scalastyle</name>
+  <name>Stratio way - No license headers</name>
   <language>scala</language>
   <rules>
     <rule id="org.scalastyle.file.FileTabChecker">
@@ -13,11 +13,11 @@
       <key>org.scalastyle.file.FileLengthChecker</key>
       <priority>MAJOR</priority>
     </rule>
-    <rule id="org.scalastyle.file.HeaderMatchesChecker">
+    <!-- <rule id="org.scalastyle.file.HeaderMatchesChecker">
       <repositoryKey>Scalastyle</repositoryKey>
       <key>org.scalastyle.file.HeaderMatchesChecker</key>
       <priority>MAJOR</priority>
-    </rule>
+    </rule> -->
     <rule id="org.scalastyle.scalariform.SpacesAfterPlusChecker">
       <repositoryKey>Scalastyle</repositoryKey>
       <key>org.scalastyle.scalariform.SpacesAfterPlusChecker</key>
@@ -113,11 +113,11 @@
       <key>org.scalastyle.scalariform.StructuralTypeChecker</key>
       <priority>MAJOR</priority>
     </rule>
-    <rule id="org.scalastyle.file.RegexChecker">
+    <!-- <rule id="org.scalastyle.file.RegexChecker">
       <repositoryKey>Scalastyle</repositoryKey>
       <key>org.scalastyle.file.RegexChecker</key>
       <priority>MAJOR</priority>
-    </rule>
+    </rule> -->
     <rule id="org.scalastyle.scalariform.NumberOfTypesChecker">
       <repositoryKey>Scalastyle</repositoryKey>
       <key>org.scalastyle.scalariform.NumberOfTypesChecker</key>
@@ -152,7 +152,7 @@
       <repositoryKey>Scalastyle</repositoryKey>
       <key>org.scalastyle.scalariform.MethodNamesChecker</key>
       <priority>MAJOR</priority>
-    </rule>
+	</rule>
     <rule id="org.scalastyle.scalariform.NumberOfMethodsInTypeChecker">
       <repositoryKey>Scalastyle</repositoryKey>
       <key>org.scalastyle.scalariform.NumberOfMethodsInTypeChecker</key>
@@ -222,7 +222,7 @@
       <repositoryKey>Scalastyle</repositoryKey>
       <key>org.scalastyle.scalariform.LowercasePatternMatchChecker</key>
       <priority>MINOR</priority>
-    </rule>
+	</rule>
     <rule id="org.scalastyle.scalariform.MultipleStringLiteralsChecker">
       <repositoryKey>Scalastyle</repositoryKey>
       <key>org.scalastyle.scalariform.MultipleStringLiteralsChecker</key>
@@ -247,7 +247,7 @@
       <repositoryKey>Scalastyle</repositoryKey>
       <key>org.scalastyle.scalariform.ProcedureDeclarationChecker</key>
       <priority>MAJOR</priority>
-    </rule>
+	</rule>
     <rule id="org.scalastyle.scalariform.ForBraceChecker">
       <repositoryKey>Scalastyle</repositoryKey>
       <key>org.scalastyle.scalariform.ForBraceChecker</key>

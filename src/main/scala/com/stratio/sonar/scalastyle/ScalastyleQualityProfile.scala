@@ -33,7 +33,7 @@ import org.sonar.api.rules.Rule
 import org.sonar.api.profiles.XMLProfileParser
 
 /**
- * This class creates the default "Scalastyle" quality profile from Scalastyle's default_config.xml
+ * This class creates the default "Stratio way - No license headers" quality profile from Scalastyle's default_config.xml
  */
 class ScalastyleQualityProfile(scalastyleRepository: ScalastyleRepository, xmlProfileParser: XMLProfileParser) extends ProfileDefinition {
   

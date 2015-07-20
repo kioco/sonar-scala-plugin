@@ -33,6 +33,7 @@ object ScalastyleResources {
   private val definitions = xmlFromClassPath("/scalastyle_definition.xml")
   private val documentation = xmlFromClassPath("/scalastyle_documentation.xml")
   private val profile = xmlFromClassPath("/scalastyle-profile.xml")
+  private val names = xmlFromClassPath("/scalastyle-names.xml")
   private val properties = new Properties()
 
   properties.load(fromClassPath("/scalastyle_messages.properties"))
@@ -71,6 +72,16 @@ object ScalastyleResources {
     }
   }
   
+  def nameFromProfile(key: String): String = {
+    names \\ "profile" \ "rules" \ "rule" find { _ \\ "@id" exists (_.text == key) } match {
+      case Some(node) => {
+        val name =  (node \ "name").text.trim
+        name
+      }
+      case None => "UNAVAILABLE"
+    }
+  }
+  
   def severityFromProfile(key: String): String = {
     profile \\ "profile" \ "rules" \ "rule" find { _ \\ "@id" exists (_.text == key) } match {
       case Some(node) => {
@@ -80,7 +91,7 @@ object ScalastyleResources {
       case None => "MAJOR"
     }
   }
-  
+
   private def getMessage(key: String): String = properties.getProperty(key)
 
   private def nodeToParameterKey(n: Node): String = (n \ "@name").text.trim
