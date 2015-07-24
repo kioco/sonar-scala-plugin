@@ -168,11 +168,11 @@
       <key>org.scalastyle.file.NewLineAtEofChecker</key>
       <priority>MINOR</priority>
     </rule>
-    <rule id="org.scalastyle.file.NoNewLineAtEofChecker">
+    <!-- <rule id="org.scalastyle.file.NoNewLineAtEofChecker">
       <repositoryKey>Scalastyle</repositoryKey>
       <key>org.scalastyle.file.NoNewLineAtEofChecker</key>
       <priority>MINOR</priority>
-    </rule>
+    </rule> -->
     <rule id="org.scalastyle.scalariform.WhileChecker">
       <repositoryKey>Scalastyle</repositoryKey>
       <key>org.scalastyle.scalariform.WhileChecker</key>
@@ -258,12 +258,12 @@
       <key>org.scalastyle.scalariform.SpaceAfterCommentStartChecker</key>
       <priority>MINOR</priority>
     </rule>
-    <rule id="org.scalastyle.scalariform.ScalaDocChecker">
+    <!-- <rule id="org.scalastyle.scalariform.ScalaDocChecker">
       <repositoryKey>Scalastyle</repositoryKey>
       <key>org.scalastyle.scalariform.ScalaDocChecker</key>
       <priority>MAJOR</priority>
-    </rule>
-    <rule id="org.scalastyle.scalariform.DisallowSpaceAfterTokenChecker">
+    </rule> -->
+    <!-- <rule id="org.scalastyle.scalariform.DisallowSpaceAfterTokenChecker">
       <repositoryKey>Scalastyle</repositoryKey>
       <key>org.scalastyle.scalariform.DisallowSpaceAfterTokenChecker</key>
       <priority>MINOR</priority>
@@ -282,6 +282,6 @@
       <repositoryKey>Scalastyle</repositoryKey>
       <key>org.scalastyle.scalariform.EnsureSingleSpaceBeforeTokenChecker</key>
       <priority>MINOR</priority>
-    </rule>  
+    </rule> -->
   </rules>
 </profile>
